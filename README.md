@@ -47,7 +47,7 @@ Vue.component('file-dialog-64', FileDialog);
         <tr>
             <td>label</td>
              <td>String</td>
-            <td><p>Used a common html label</p></td>
+            <td><p>Used as common html label</p></td>
         </tr>
           <tr>
             <td>placeholder</td>
