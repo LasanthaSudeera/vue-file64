@@ -1,7 +1,8 @@
 {
   "name": "vue-file64",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
+  "license": "MIT",
   "main": "dist/vue-file64.ssr.js",
   "browser": "dist/vue-file64.esm.js",
   "module": "dist/vue-file64.esm.js",
@@ -40,5 +41,10 @@
   },
   "engines": {
     "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LasanthaSudeera/vue-file64.git"
   }
+
 }
