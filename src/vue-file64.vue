@@ -1,11 +1,3 @@
-// This FileDialog will emit an array in base 64 by Lasantha Sudeera // :label
-slot will act as the main label // :placeholder slot acts as the placeholder
-until files are choosen // :multiple slot accepts true for false to make the
-dialog accept single or multiple files // @output event can be used to get the
-base 64 strings if image // @filecount can be used to get the number of files //
-When getting data from events, use function eg: @output="(file) => {do something
-with file object}" //errorMessage slot will accept a html template to show as
-error //onComplete will show if the files are successfully retrieved
 <template>
     <div>
         <label>{{ mainLabel }}</label>
@@ -115,7 +107,7 @@ export default {
             }
 
             if (this.placeholder == null) {
-                if (this.multiple == null) {
+                if (this.multiple == false) {
                     return "Choose File";
                 } else {
                     return "Choose Files";
