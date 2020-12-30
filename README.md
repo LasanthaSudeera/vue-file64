@@ -57,7 +57,7 @@ Vue.component('file-dialog-64', FileDialog);
           <tr>
             <td>accept</td>
              <td>String</td>
-            <td><p>Same as HTML accept, example :accept="'.jpg, .png'"</p></td>
+            <td><p>Same as HTML accept,can be used to filter extensions, example :accept="'.jpg, .png'"</p></td>
         </tr>
           <tr>
             <td>multiple</td>
